@@ -41,14 +41,14 @@ struct ResultView_Previews: PreviewProvider {
         ZStack {
             Color.blue
                 .ignoresSafeArea()
-            ResultView(title: "Correct", question: testQuestions[0]) {
+            ResultView(title: "Correct", question: TestQuestions.question) {
                 
             }
         }
         ZStack {
             Color.blue
                 .ignoresSafeArea()
-            ResultView(title: "Wrong", question: testQuestions[0]) {
+            ResultView(title: "Wrong", question: TestQuestions.question) {
                 
             }
         }

@@ -11,10 +11,14 @@
 		27B8D51F258E6ACE00C5427C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B8D51E258E6ACE00C5427C /* ContentView.swift */; };
 		27B8D521258E6ACF00C5427C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27B8D520258E6ACF00C5427C /* Assets.xcassets */; };
 		27B8D524258E6ACF00C5427C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27B8D523258E6ACF00C5427C /* Preview Assets.xcassets */; };
-		27B8D531258E6B2800C5427C /* SelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B8D52D258E6B2800C5427C /* SelectView.swift */; };
-		27B8D532258E6B2800C5427C /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B8D52E258E6B2800C5427C /* QuizView.swift */; };
-		27B8D533258E6B2800C5427C /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B8D52F258E6B2800C5427C /* ResultView.swift */; };
-		27B8D534258E6B2800C5427C /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B8D530258E6B2800C5427C /* Question.swift */; };
+		27B8D578258E70D200C5427C /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B8D56C258E70D200C5427C /* Question.swift */; };
+		27B8D579258E70D200C5427C /* MTRadio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B8D56E258E70D200C5427C /* MTRadio.swift */; };
+		27B8D57C258E70D200C5427C /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B8D573258E70D200C5427C /* View.swift */; };
+		27B8D57D258E70D200C5427C /* SelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B8D575258E70D200C5427C /* SelectView.swift */; };
+		27B8D57E258E70D200C5427C /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B8D576258E70D200C5427C /* ResultView.swift */; };
+		27B8D57F258E70D200C5427C /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B8D577258E70D200C5427C /* QuizView.swift */; };
+		27B8D583258E711D00C5427C /* ImageButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B8D582258E711D00C5427C /* ImageButtonStyle.swift */; };
+		27B8D587258E714600C5427C /* ImageToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B8D586258E714600C5427C /* ImageToggleStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,10 +28,14 @@
 		27B8D520258E6ACF00C5427C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27B8D523258E6ACF00C5427C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		27B8D525258E6ACF00C5427C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		27B8D52D258E6B2800C5427C /* SelectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectView.swift; sourceTree = "<group>"; };
-		27B8D52E258E6B2800C5427C /* QuizView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
-		27B8D52F258E6B2800C5427C /* ResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
-		27B8D530258E6B2800C5427C /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		27B8D56C258E70D200C5427C /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		27B8D56E258E70D200C5427C /* MTRadio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTRadio.swift; sourceTree = "<group>"; };
+		27B8D573258E70D200C5427C /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		27B8D575258E70D200C5427C /* SelectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectView.swift; sourceTree = "<group>"; };
+		27B8D576258E70D200C5427C /* ResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		27B8D577258E70D200C5427C /* QuizView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		27B8D582258E711D00C5427C /* ImageButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageButtonStyle.swift; sourceTree = "<group>"; };
+		27B8D586258E714600C5427C /* ImageToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageToggleStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +68,11 @@
 		27B8D51B258E6ACE00C5427C /* MultiplicationTables-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				27B8D530258E6B2800C5427C /* Question.swift */,
-				27B8D52E258E6B2800C5427C /* QuizView.swift */,
-				27B8D52F258E6B2800C5427C /* ResultView.swift */,
-				27B8D52D258E6B2800C5427C /* SelectView.swift */,
+				27B8D570258E70D200C5427C /* Styles */,
+				27B8D572258E70D200C5427C /* Extensions */,
+				27B8D56B258E70D200C5427C /* Model */,
+				27B8D574258E70D200C5427C /* Screens */,
+				27B8D56D258E70D200C5427C /* Views */,
 				27B8D51C258E6ACE00C5427C /* MultiplicationTables_SwiftUIApp.swift */,
 				27B8D51E258E6ACE00C5427C /* ContentView.swift */,
 				27B8D520258E6ACF00C5427C /* Assets.xcassets */,
@@ -79,6 +88,49 @@
 				27B8D523258E6ACF00C5427C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		27B8D56B258E70D200C5427C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				27B8D56C258E70D200C5427C /* Question.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		27B8D56D258E70D200C5427C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				27B8D56E258E70D200C5427C /* MTRadio.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		27B8D570258E70D200C5427C /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				27B8D582258E711D00C5427C /* ImageButtonStyle.swift */,
+				27B8D586258E714600C5427C /* ImageToggleStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		27B8D572258E70D200C5427C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				27B8D573258E70D200C5427C /* View.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		27B8D574258E70D200C5427C /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				27B8D575258E70D200C5427C /* SelectView.swift */,
+				27B8D576258E70D200C5427C /* ResultView.swift */,
+				27B8D577258E70D200C5427C /* QuizView.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,12 +202,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27B8D579258E70D200C5427C /* MTRadio.swift in Sources */,
+				27B8D583258E711D00C5427C /* ImageButtonStyle.swift in Sources */,
 				27B8D51F258E6ACE00C5427C /* ContentView.swift in Sources */,
-				27B8D532258E6B2800C5427C /* QuizView.swift in Sources */,
-				27B8D533258E6B2800C5427C /* ResultView.swift in Sources */,
-				27B8D534258E6B2800C5427C /* Question.swift in Sources */,
+				27B8D57D258E70D200C5427C /* SelectView.swift in Sources */,
+				27B8D57E258E70D200C5427C /* ResultView.swift in Sources */,
 				27B8D51D258E6ACE00C5427C /* MultiplicationTables_SwiftUIApp.swift in Sources */,
-				27B8D531258E6B2800C5427C /* SelectView.swift in Sources */,
+				27B8D578258E70D200C5427C /* Question.swift in Sources */,
+				27B8D57F258E70D200C5427C /* QuizView.swift in Sources */,
+				27B8D57C258E70D200C5427C /* View.swift in Sources */,
+				27B8D587258E714600C5427C /* ImageToggleStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

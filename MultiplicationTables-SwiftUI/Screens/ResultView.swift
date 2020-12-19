@@ -27,8 +27,9 @@ struct ResultView: View {
                 Button("Continue") {
                     complete()
                 }
+                .buttonStyle(ImageButtonStyle(image: "red-button"))
             }
-            .frame(width: 300, height: 500)
+            .frame(width: 300, height: 400)
             .background(Color(.systemBackground))
             .cornerRadius(8)
             .shadow(radius: 16)
@@ -41,14 +42,14 @@ struct ResultView_Previews: PreviewProvider {
         ZStack {
             Color.blue
                 .ignoresSafeArea()
-            ResultView(title: "Correct", question: TestQuestions.question) {
+            ResultView(title: "Correct", question: testQuestions[0]) {
                 
             }
         }
         ZStack {
             Color.blue
                 .ignoresSafeArea()
-            ResultView(title: "Wrong", question: TestQuestions.question) {
+            ResultView(title: "Wrong", question: testQuestions[0]) {
                 
             }
         }

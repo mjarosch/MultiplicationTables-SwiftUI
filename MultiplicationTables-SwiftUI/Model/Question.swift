@@ -35,8 +35,6 @@ struct Question {
     }
 }
 
-struct TestQuestions {
-    static let question = Question(factor1: 1, factor2: 2)
-
-    static let questions = [Question(factor1: 1, factor2: 2)]
-}
+let testQuestions = [
+    Question(factor1: 1, factor2: 2)
+]

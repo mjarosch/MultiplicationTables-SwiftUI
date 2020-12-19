@@ -24,12 +24,20 @@ struct QuizView: View {
 
     var body: some View {
         ZStack {
-            Form {
-                Text("What is \(questions[currentQuestion].question)?")
+            VStack {
+                Text("Question \(currentQuestion + 1) of  \(questions.count)")
                     .font(.largeTitle)
                     .fontWeight(.bold)
+                Spacer()
+                Text("What is \(questions[currentQuestion].question)?")
+                    .font(.largeTitle)
+                    .fontWeight(.semibold)
+                Spacer()
                 TextField("Answer", text: $guess)
                     .keyboardType(.numberPad)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .padding()
+                Spacer()
                 Button("Submit") {
                     guard let answer = Int(guess) else {
                         return
@@ -42,6 +50,7 @@ struct QuizView: View {
                         quizState = .wrong
                     }
                 }
+                .buttonStyle(ImageButtonStyle(image: "red-button"))
             }.blur(radius: quizState == .guessing ? 0 : -10)
             
             if quizState == .right {
